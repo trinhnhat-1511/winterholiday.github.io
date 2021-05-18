@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root{
+    --height--header--pc: 80px;
+    --color--main: #3fd0d4;
+}
+
+body{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+}
+
+.contain{
+    width: 100%;
+}
+
+.word__main{
+    font-size: 34px;
+    font-family: "Satisfy";
+    color: var(--color--main);
+    text-transform: capitalize;
+}
+
+.after__review{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text-after__review{
+    font-size: 65px;
+    font-weight: 900;
+}
+
+.text-after__review-sub{
+    max-width: 414px;
+    margin: 0 auto;
+    line-height: 28px;
+}
